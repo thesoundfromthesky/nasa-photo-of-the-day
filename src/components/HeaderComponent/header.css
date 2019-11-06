@@ -1,0 +1,24 @@
+.header-title {
+  background-color: var(--primary);
+  overflow: hidden;
+}
+
+.header-title > h1 {
+  text-align: center;
+  color: var(--secondary);
+}
+
+.header-intro {
+  min-height: 827px;
+
+  display: flex;
+}
+
+.header-intro > div:nth-child(1) {
+  background: blue;
+  flex: 0 0 50%;
+}
+.header-intro > div:nth-child(2) {
+  background: red;
+  flex: 0 0 50%;
+}

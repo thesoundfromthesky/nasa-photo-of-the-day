@@ -1,0 +1,10 @@
+@import "./reset.css";
+@import "./typography.css";
+@import "./color.css";
+
+.wrapper {
+  max-width: 1920px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}

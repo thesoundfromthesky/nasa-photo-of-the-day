@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
+import mockup from "./model/mockup";
+
+import Header from "./components/HeaderComponent/Header";
+
 function App() {
+  const [data, setData] = useState();
+
+  useEffect(_ => {
+    setData(prevData => mockup);
+  }, []);
+
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <Header />
     </div>
   );
 }
