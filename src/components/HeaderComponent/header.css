@@ -14,11 +14,26 @@
   display: flex;
 }
 
+/* Card */
 .header-intro > div:nth-child(1) {
-  background: blue;
   flex: 0 0 50%;
+
+  display: flex;
 }
+
+.header-intro > div:nth-child(1) > .card {
+  width: 83%;
+  margin: auto;
+}
+
+/* Calendar */
 .header-intro > div:nth-child(2) {
-  background: red;
   flex: 0 0 50%;
+
+  display: flex;
+}
+
+.header-intro > div:nth-child(2) > .calendar {
+  width: 83%;
+  margin: auto;
 }

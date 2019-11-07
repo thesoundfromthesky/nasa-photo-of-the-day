@@ -1,4 +1,5 @@
 @import "./reset.css";
+@import "./normalize.css";
 @import "./typography.css";
 @import "./color.css";
 
@@ -8,3 +9,4 @@
   margin-left: auto;
   margin-right: auto;
 }
+

@@ -1,0 +1,12 @@
+.calendar {
+  min-height: 778px;
+}
+
+.calendar-header {
+  min-height: 300px;
+  display: flex;
+}
+
+.calendar-header > h1 {
+  margin: auto;
+}

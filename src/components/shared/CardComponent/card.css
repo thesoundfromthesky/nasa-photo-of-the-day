@@ -1,0 +1,25 @@
+.card {
+  min-height: 778px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+}
+
+.card-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-iframe {
+  position: relative;
+  padding-top: 56.25%;
+}
+.card-iframe > iframe {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

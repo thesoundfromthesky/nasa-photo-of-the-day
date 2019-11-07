@@ -1,10 +1,17 @@
 import React from "react";
 
-export default function HeaderIntro() {
+import Card from "../shared/CardComponent/Card";
+import Calendar from "../HeaderComponent/CalendarComponent/Calendar";
+
+export default function HeaderIntro({ date, setDate, data }) {
   return (
     <section className="header-intro wrapper">
-      <div>left</div>
-      <div>right</div>
+      <div>
+        <Card data={data} />
+      </div>
+      <div>
+        <Calendar date={date} setDate={setDate} />
+      </div>
     </section>
   );
 }
